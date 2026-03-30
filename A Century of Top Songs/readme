@@ -1,0 +1,14 @@
+# 🎵 A Century of Top Songs: Data Cleaning & Analysis
+
+Este projeto foi desenvolvido como parte do curso de Ciência de Dados da **Cisco**, focado na etapa de **Data Cleaning** (Limpeza de Dados) e análise exploratória com Python e Pandas.
+
+## 📌 Objetivo do Projeto
+Analisar as tendências de duração das músicas que atingiram o topo das paradas entre 1923 e 2023, investigando se houve um aumento real na duração média das faixas ao longo do último século.
+
+## 🛠️ Desafios de Limpeza de Dados (Data Cleaning)
+O maior desafio técnico foi converter a coluna `duration`, que estava no formato de texto (`HH:MM:SS`), em valores numéricos para permitir cálculos estatísticos e a criação de gráficos.
+
+### Etapas de Transformação:
+1. **Splitting:** Divisão da string de tempo em horas, minutos e segundos.
+2. **Type Casting:** Conversão dos novos campos de texto para inteiros (`int`).
+3. **Feature Engineering:** Cálculo da coluna `total_seconds` para unificar a métrica de tempo.
